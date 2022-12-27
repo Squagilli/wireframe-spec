@@ -1,0 +1,103 @@
+.headerBar {
+    display: flex;
+    justify-content: space-between;
+}
+.topNav {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 2px;
+    height: 30px;
+    align-items: center;
+}
+.headerSection {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 900px;
+    margin: auto;
+}
+.navTwo {
+    display: grid;
+    grid-template: 100px / 70% 10% 10% 10%;
+    width: 900px;
+    height: autopx;
+    align-items: center;
+    margin: auto;
+}
+.imgSection {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 900px;
+    height: 150px;
+    margin: auto;
+}
+.paraSection {
+    display: grid;
+    grid-template: 50% 50% / 100%;
+    width: 900px;
+    margin: auto;
+}
+.paraPara {
+    display: flex;
+    justify-content: center;
+}
+
+/* Maybe turn into grid*/
+.listSection {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+.listOne {
+    padding: 1em;
+    width: 450px;
+}
+
+.bottomNav {
+    display: grid;
+    grid-template: 100% / 50% 7% 7% 7% 7% 7%;
+    height: 50px;
+    align-items: center;
+}
+.social {
+    border: 3px solid black;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+}
+.socialShare {
+    border: 3px solid black;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul li:before {
+    content: '\2012';
+    position: absolute;
+    margin-left: -15px;
+    color: black;
+}
+.listItem {
+    color: blue;
+}
+.bottomImg {
+    border: 1px solid black;
+    width: 150px;
+    margin-left: 210px;
+}
+
+html {
+    font-family: arial;
+}
